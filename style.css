@@ -1,0 +1,65 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: monospace;
+}
+
+.game-container {
+	text-align: center;
+	width: 450px;
+	height: 750px;
+}
+
+.gameBoard {
+	float: left;
+}
+
+.grid {
+	border: 2px solid white;
+	width: 300px;
+	height: 600px;
+}
+
+.grid div {
+	background-color: #212121;
+	width: 28px;
+	height: 28px;
+	float: left;
+	border: 1px solid #303030;
+	overflow: hidden;
+}
+
+.nextTetr {
+	height: 120px;
+	width: 120px;
+	float: left;
+	margin-left: 5px;
+}
+
+.nextTetr > div {
+	border: 2px solid white;
+	height: 120px;
+	width: 120px;
+	margin-bottom: 2px;
+}
+
+.nextTetr > div > div {
+	background-color: #212121;
+	width: 28px;
+	height: 28px;
+	float: left;
+	border: 1px solid #303030;
+	overflow: hidden;
+}
+
+.levelBar {
+	background-color: none;
+	height: 20px;
+	width: 300px;
+	border: 2px solid white;
+}
+
+.levelProgress {
+	background-color: #FF9600;
+	height: 20px;
+}
