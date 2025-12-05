@@ -1,3 +1,5 @@
+//zrobione z pomocą jakiegoś tutoriala
+
 const grid = document.getElementById("grid");
 let gridSquares = Array.from(document.querySelectorAll(".grid div"));
 let nextUpSquares = Array.from(document.querySelectorAll(".nextTetr > div > div"));
@@ -225,4 +227,5 @@ function displayNextUpTetr() {
 }
 
 startGame();
+
 drawTetr();
